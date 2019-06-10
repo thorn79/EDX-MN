@@ -34,7 +34,7 @@ echo "Configuring fail2ban"
 echo -e "[DEFAULT]\nbantime  = 864000\nfindtime  = 600\nmaxretry = 3\ndestemail = root@localhost\nsender = root@localhost\n\naction = %(action_mwl)s\n" >> /etc/fail2ban/jail.local
 service fail2ban restart
 echo "Building EDX... may take extended time on a low memory VPS"
-cd /opt && rm -rf EDX && git clone https://github.com/SaltineChips/EDX.git && cd EDX/src && chmod +x leveldb/build_detect_platform && chmod +x secp256k1/autogen.sh && make -f makefile.unix && strip Endoxd && cp Endoxd /usr/local/bin && echo "Cleaning up" && make -f makefile.unix clean && cd && Endoxd
+cd /opt && rm -rf EDX && git clone https://github.com/SaltineChips/endox.git && cd EDX/src && chmod +x leveldb/build_detect_platform && chmod +x secp256k1/autogen.sh && make -f makefile.unix && strip Endoxd && cp Endoxd /usr/local/bin && echo "Cleaning up" && make -f makefile.unix clean && cd && Endoxd
 
 read -p "Please enter this MN Private Key and press [ENTER]:" yay
 if [[ -z "$yay" ]]; then
