@@ -48,4 +48,4 @@ The procedure has been tested on Ubuntu +16.04
 1. Access your VPS and issue the following command to proceed as root: <br>`sudo -i`
 2. Fetch the script and execute it: <br> `cd /opt && git clone https://github.com/SaltineChips/EDX-MN.git  && cd EDX-MN && chmod +x EDX_deploy_mn.sh && ./EDX_deploy_mn.sh`
 
-## To report issues or for support : <br> [EndoxCoin Discord #support](https://discord.gg/377W9ZP)
+## To report issues or for support : <br> [Endox Discord #support](https://discord.gg/377W9ZP)

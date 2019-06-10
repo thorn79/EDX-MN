@@ -1,10 +1,10 @@
 # EDX-MN
-EndoxCoin - http://endox.chainpages.xyz/
+Endox - http://endox.chainpages.xyz/
 Scripts &amp; Helpers
 
-![EndoxCoin](/images/EDX.png)
-## [Deploy EndoxCoin Masternode](Deploy.md)
+![Endox](/images/EDX.png)
+## [Deploy Endox Masternode](Deploy.md)
 
-## [Update EndoxCoin Node/Masternode](Update.md)
+## [Update Endox Node/Masternode](Update.md)
 
-## To report issues or for support : <br> [EndoxCoin Discord #support](https://discord.gg/377W9ZP)
+## To report issues or for support : <br> [Endox Discord #support](https://discord.gg/377W9ZP)
